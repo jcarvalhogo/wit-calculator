@@ -1,1 +1,1 @@
-# wit-calculator
+# wit-challenge
