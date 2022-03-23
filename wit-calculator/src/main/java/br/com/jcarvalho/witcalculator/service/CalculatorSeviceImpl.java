@@ -22,6 +22,7 @@ public class CalculatorSeviceImpl implements CalculatorSevice {
     @Override
     public ResponseEntity<ValuesDTO> soma(ValuesDTO values) {
         values.setResult(values.getN1().add(values.getN2()));
+        values.setOperacao("Adição");
         queueCreate(values);
         return ResponseEntity.ok().body(values);
     }
@@ -29,6 +30,7 @@ public class CalculatorSeviceImpl implements CalculatorSevice {
     @Override
     public ResponseEntity<ValuesDTO> subtracao(ValuesDTO values) {
         values.setResult(values.getN1().subtract(values.getN2()));
+        values.setOperacao("Subtração");
         queueCreate(values);
         return ResponseEntity.ok().body(values);
     }
@@ -36,6 +38,7 @@ public class CalculatorSeviceImpl implements CalculatorSevice {
     @Override
     public ResponseEntity<ValuesDTO> divisao(ValuesDTO values) {
         values.setN2(new BigDecimal(values.getN2().toBigInteger()));
+        values.setOperacao("Divisão");
         values.setResult(values.getN1().divide(values.getN2()));
         queueCreate(values);
         return ResponseEntity.ok().body(values);
@@ -44,6 +47,7 @@ public class CalculatorSeviceImpl implements CalculatorSevice {
     @Override
     public ResponseEntity<ValuesDTO> multiplicacao(ValuesDTO values) {
         values.setResult(values.getN1().multiply(values.getN2()));
+        values.setOperacao("Multiplicação");
         queueCreate(values);
         return ResponseEntity.ok().body(values);
     }

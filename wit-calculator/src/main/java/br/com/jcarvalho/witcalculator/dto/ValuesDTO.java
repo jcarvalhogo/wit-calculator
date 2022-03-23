@@ -15,4 +15,5 @@ public class ValuesDTO {
     private BigDecimal n1;
     private BigDecimal n2;
     private BigDecimal result;
+    private String operacao;
 }
