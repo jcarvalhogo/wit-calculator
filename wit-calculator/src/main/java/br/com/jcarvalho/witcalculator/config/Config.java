@@ -5,28 +5,29 @@ import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
 import org.springframework.amqp.support.converter.MessageConverter;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.env.Environment;
 
 @Configuration
 public class Config {
-    public static final String QUEUE = "WitQueue";
-    public static final String EXCHANGE = "WitexChange";
-    public static final String ROUTING_KEY = "WitRoutingKey";
+    @Autowired
+    private Environment env;
 
     @Bean
     public Queue queue() {
-        return new Queue(QUEUE);
+        return new Queue(env.getProperty("rabbit.wit.queue"));
     }
 
     @Bean
     public TopicExchange exchange() {
-        return new TopicExchange(EXCHANGE);
+        return new TopicExchange(env.getProperty("rabbit.wit.change"));
     }
 
     @Bean
     public Binding binding(Queue queue, TopicExchange exchange) {
-        return BindingBuilder.bind(queue).to(exchange).with(ROUTING_KEY);
+        return BindingBuilder.bind(queue).to(exchange).with(env.getProperty("rabbit.wit.routing.key"));
     }
 
     @Bean

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class CalculatorLogger {
+
     @RabbitListener(queues = Config.QUEUE)
     public void consumeMessageFromQueue(Message message) {
         System.out.println("Messagem recebida: " + message.getBody());

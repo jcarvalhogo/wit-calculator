@@ -4,6 +4,7 @@ import br.com.jcarvalho.witcalculator.config.Config;
 import br.com.jcarvalho.witcalculator.dto.ValuesDTO;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -11,6 +12,9 @@ import java.math.BigDecimal;
 
 @Service
 public class CalculatorSeviceImpl implements CalculatorSevice {
+
+    @Autowired
+    private Environment env;
 
     @Autowired
     private RabbitTemplate template;
@@ -45,6 +49,6 @@ public class CalculatorSeviceImpl implements CalculatorSevice {
     }
 
     private void queueCreate(ValuesDTO values) {
-        template.convertAndSend(Config.EXCHANGE, Config.ROUTING_KEY, values);
+        template.convertAndSend(env.getProperty("rabbit.wit.change"), env.getProperty("rabbit.wit.routing.key"), values);
     }
 }
