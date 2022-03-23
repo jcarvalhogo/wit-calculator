@@ -1,0 +1,57 @@
+23-03-2022 19:36:52.359 [main] INFO  br.com.jcarvalho.witcalculator.WitCalculatorApplication     .logStarting - Starting WitCalculatorApplication using Java 11.0.13 on AK129465 with PID 18416 (C:\Users\josemar\Documents\wit-challenge\wit-calculator\target\classes started by josemar in C:\Users\josemar\Documents\wit-challenge)
+23-03-2022 19:36:52.362 [main] INFO  br.com.jcarvalho.witcalculator.WitCalculatorApplication     .logStartupProfileInfo - The following 1 profile is active: "dev"
+23-03-2022 19:36:52.918 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8085 (http)
+23-03-2022 19:36:52.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Initializing ProtocolHandler ["http-nio-8085"]
+23-03-2022 19:36:52.924 [main] INFO  org.apache.catalina.core.StandardService                    .log - Starting service [Tomcat]
+23-03-2022 19:36:52.925 [main] INFO  org.apache.catalina.core.StandardEngine                     .log - Starting Servlet engine: [Apache Tomcat/9.0.58]
+23-03-2022 19:36:52.983 [main] INFO  o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]    .log - Initializing Spring embedded WebApplicationContext
+23-03-2022 19:36:52.983 [main] INFO  o.s.b.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 596 ms
+23-03-2022 19:36:53.362 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Starting ProtocolHandler ["http-nio-8085"]
+23-03-2022 19:36:53.380 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8085 (http) with context path ''
+23-03-2022 19:36:53.389 [main] INFO  br.com.jcarvalho.witcalculator.WitCalculatorApplication     .logStarted - Started WitCalculatorApplication in 1.247 seconds (JVM running for 2.063)
+23-03-2022 19:37:23.267 [main] INFO  br.com.jcarvalho.witcalculator.WitCalculatorApplication     .logStarting - Starting WitCalculatorApplication using Java 11.0.13 on AK129465 with PID 1580 (C:\Users\josemar\Documents\wit-challenge\wit-calculator\target\classes started by josemar in C:\Users\josemar\Documents\wit-challenge)
+23-03-2022 19:37:23.269 [main] INFO  br.com.jcarvalho.witcalculator.WitCalculatorApplication     .logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-03-2022 19:37:23.762 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8085 (http)
+23-03-2022 19:37:23.766 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Initializing ProtocolHandler ["http-nio-8085"]
+23-03-2022 19:37:23.767 [main] INFO  org.apache.catalina.core.StandardService                    .log - Starting service [Tomcat]
+23-03-2022 19:37:23.767 [main] INFO  org.apache.catalina.core.StandardEngine                     .log - Starting Servlet engine: [Apache Tomcat/9.0.58]
+23-03-2022 19:37:23.821 [main] INFO  o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]    .log - Initializing Spring embedded WebApplicationContext
+23-03-2022 19:37:23.822 [main] INFO  o.s.b.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 528 ms
+23-03-2022 19:37:24.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Starting ProtocolHandler ["http-nio-8085"]
+23-03-2022 19:37:24.192 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8085 (http) with context path ''
+23-03-2022 19:37:24.199 [main] INFO  br.com.jcarvalho.witcalculator.WitCalculatorApplication     .logStarted - Started WitCalculatorApplication in 1.151 seconds (JVM running for 1.909)
+23-03-2022 19:38:50.972 [main] INFO  br.com.jcarvalho.witlogger.WitLoggerApplication             .logStarting - Starting WitLoggerApplication using Java 11.0.13 on AK129465 with PID 1420 (C:\Users\josemar\Documents\wit-challenge\wit-logger\target\classes started by josemar in C:\Users\josemar\Documents\wit-challenge)
+23-03-2022 19:38:50.975 [main] INFO  br.com.jcarvalho.witlogger.WitLoggerApplication             .logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-03-2022 19:38:51.783 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+23-03-2022 19:38:51.791 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Initializing ProtocolHandler ["http-nio-8080"]
+23-03-2022 19:38:51.792 [main] INFO  org.apache.catalina.core.StandardService                    .log - Starting service [Tomcat]
+23-03-2022 19:38:51.792 [main] INFO  org.apache.catalina.core.StandardEngine                     .log - Starting Servlet engine: [Apache Tomcat/9.0.58]
+23-03-2022 19:38:51.896 [main] INFO  o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]    .log - Initializing Spring embedded WebApplicationContext
+23-03-2022 19:38:51.897 [main] INFO  o.s.b.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 890 ms
+23-03-2022 19:38:52.545 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Starting ProtocolHandler ["http-nio-8080"]
+23-03-2022 19:38:52.561 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+23-03-2022 19:38:52.563 [main] INFO  o.s.amqp.rabbit.connection.CachingConnectionFactory         .connectAddresses - Attempting to connect to: [localhost:5672]
+23-03-2022 19:38:52.587 [main] INFO  o.s.amqp.rabbit.connection.CachingConnectionFactory         .createBareConnection - Created new connection: rabbitConnectionFactory#7f287b98:0/SimpleConnection@4dfdfe7d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64317]
+23-03-2022 19:38:52.620 [main] INFO  br.com.jcarvalho.witlogger.WitLoggerApplication             .logStarted - Started WitLoggerApplication in 1.963 seconds (JVM running for 2.967)
+23-03-2022 19:39:34.493 [SpringApplicationShutdownHook] INFO  o.s.amqp.rabbit.listener.SimpleMessageListenerContainer     .doShutdown - Waiting for workers to finish.
+23-03-2022 19:39:35.017 [SpringApplicationShutdownHook] INFO  o.s.amqp.rabbit.listener.SimpleMessageListenerContainer     .doShutdown - Successfully waited for workers to finish.
+23-03-2022 19:39:38.965 [main] INFO  br.com.jcarvalho.witlogger.WitLoggerApplication             .logStarting - Starting WitLoggerApplication using Java 11.0.13 on AK129465 with PID 15732 (C:\Users\josemar\Documents\wit-challenge\wit-logger\target\classes started by josemar in C:\Users\josemar\Documents\wit-challenge)
+23-03-2022 19:39:38.967 [main] INFO  br.com.jcarvalho.witlogger.WitLoggerApplication             .logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+23-03-2022 19:39:39.492 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize - Tomcat initialized with port(s): 8080 (http)
+23-03-2022 19:39:39.496 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Initializing ProtocolHandler ["http-nio-8080"]
+23-03-2022 19:39:39.497 [main] INFO  org.apache.catalina.core.StandardService                    .log - Starting service [Tomcat]
+23-03-2022 19:39:39.497 [main] INFO  org.apache.catalina.core.StandardEngine                     .log - Starting Servlet engine: [Apache Tomcat/9.0.58]
+23-03-2022 19:39:39.553 [main] INFO  o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]    .log - Initializing Spring embedded WebApplicationContext
+23-03-2022 19:39:39.553 [main] INFO  o.s.b.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 561 ms
+23-03-2022 19:39:39.882 [main] INFO  org.apache.coyote.http11.Http11NioProtocol                  .log - Starting ProtocolHandler ["http-nio-8080"]
+23-03-2022 19:39:39.896 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start - Tomcat started on port(s): 8080 (http) with context path ''
+23-03-2022 19:39:39.898 [main] INFO  o.s.amqp.rabbit.connection.CachingConnectionFactory         .connectAddresses - Attempting to connect to: [localhost:5672]
+23-03-2022 19:39:39.916 [main] INFO  o.s.amqp.rabbit.connection.CachingConnectionFactory         .createBareConnection - Created new connection: rabbitConnectionFactory#43cb5f38:0/SimpleConnection@353f472a [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64345]
+23-03-2022 19:39:39.953 [main] INFO  br.com.jcarvalho.witlogger.WitLoggerApplication             .logStarted - Started WitLoggerApplication in 1.221 seconds (JVM running for 2.171)
+23-03-2022 19:40:52.223 [SpringApplicationShutdownHook] INFO  o.s.amqp.rabbit.listener.SimpleMessageListenerContainer     .doShutdown - Waiting for workers to finish.
+23-03-2022 19:40:52.612 [SpringApplicationShutdownHook] INFO  o.s.amqp.rabbit.listener.SimpleMessageListenerContainer     .doShutdown - Successfully waited for workers to finish.
+23-03-2022 19:41:21.788 [http-nio-8085-exec-1] INFO  o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/]    .log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23-03-2022 19:41:21.790 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet           .initServletBean - Initializing Servlet 'dispatcherServlet'
+23-03-2022 19:41:21.790 [http-nio-8085-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet           .initServletBean - Completed initialization in 0 ms
+23-03-2022 19:41:21.848 [http-nio-8085-exec-1] INFO  o.s.amqp.rabbit.connection.CachingConnectionFactory         .connectAddresses - Attempting to connect to: [localhost:5672]
+23-03-2022 19:41:21.873 [http-nio-8085-exec-1] INFO  o.s.amqp.rabbit.connection.CachingConnectionFactory         .createBareConnection - Created new connection: rabbitConnectionFactory#35c9a231:0/SimpleConnection@3f373580 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64376]
